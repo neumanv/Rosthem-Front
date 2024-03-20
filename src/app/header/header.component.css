@@ -1,0 +1,24 @@
+header {
+    background-color: #f2f2f2;
+    padding: 0 25rem;
+}
+
+.icono {
+    width: 5rem;
+    height: auto;
+}
+
+.user {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px) {
+    header {
+        background-color: #f2f2f2;
+        padding: 0;
+    }
+}
