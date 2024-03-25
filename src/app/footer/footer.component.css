@@ -1,0 +1,27 @@
+footer {
+    background-color: #f2f2f2;
+    padding: 0 25rem;
+}
+
+.icono {
+    width: 8rem;
+    height: auto;
+}
+
+#img-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#id{
+    font-size: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px) {
+    footer {
+        background-color: #f2f2f2;
+        padding: 0;
+    }
+}
