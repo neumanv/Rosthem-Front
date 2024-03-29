@@ -1,0 +1,29 @@
+.atras i{
+    font-size: 2rem;
+}
+
+input, select{
+    padding: 10px;
+    background-color: #e1e1e163;
+    box-shadow: #ff0000;
+}
+
+.enviar{
+    background-color: #000000e5;
+}
+
+.enviar:hover{
+    background-color: #3b3b3be8;
+    transition: 600ms;
+}
+
+.enviar.disabled{
+    background-color: #ff0000;
+    cursor: not-allowed;
+}
+
+@media (max-width:768px) {
+    .enviar {
+        width: 100%;
+    }
+}

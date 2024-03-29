@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -10,13 +10,5 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
-  user: any;
-  password: any;
-
-  loginForm() {
-    let user = document.getElementById("miFormulario")
-    console.log(this.loginForm)
-  }
   
 }
