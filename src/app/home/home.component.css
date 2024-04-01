@@ -1,0 +1,15 @@
+html {
+    background-color: #f2f2f2;
+}
+
+input, select {
+    padding: 10px;
+    background-color: #e1e1e163;
+    box-shadow: #ff0000;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
